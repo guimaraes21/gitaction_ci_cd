@@ -22,6 +22,12 @@ jobs:
       - name: Exibe informações do evento de push
         run: |
           echo "Este workflow foi acionado por um evento de 'push'."
+      - name: branch
+        run: |
           echo "O commit foi enviado para a branch: ${{ github.ref }}"
+      - name: SHA
+        run: |
           echo "SHA do commit: ${{ github.sha }}"
+      - name: Repo
+        run: |
           echo "Este step está executando no Repo ${{ github.repository }}"
