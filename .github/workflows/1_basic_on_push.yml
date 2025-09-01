@@ -24,3 +24,4 @@ jobs:
           echo "Este workflow foi acionado por um evento de 'push'."
           echo "O commit foi enviado para a branch: ${{ github.ref }}"
           echo "SHA do commit: ${{ github.sha }}"
+          echo "Este step está executando no Repo ${{ github.repository }}"
