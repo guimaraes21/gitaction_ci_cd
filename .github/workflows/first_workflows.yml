@@ -20,3 +20,6 @@ jobs:
       - name: Repo
         run: |
           echo "Este step está executando no Repo ${{ github.repository }}"
+      - name: RA - NOME
+        run: |
+          echo "6324680 - Vitor Pinheiro Guimarães"
