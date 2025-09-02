@@ -1,5 +1,4 @@
 name: My first Workflow CI
- 
 on:
   push:
     branches:
@@ -7,10 +6,8 @@ on:
   worflow_dispatch:
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
-
   steps:
     - name: Start
       run: |
